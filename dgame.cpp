@@ -151,10 +151,10 @@ int main()
 			int points=0;
 			p_X=p_Y=0;
 			
-			system("clear");
+			system("cls");
 			while(!GameOver)	//game loop
 			{
-				system("clear");
+				system("cls");
 				
 				displ[p_Y][p_X]='@';
 
@@ -225,7 +225,7 @@ int main()
 				case 'x': Rep=false; Exit=true; break;
 				default: GameOver=true; goto xdfgh; break; 
 			}
-			system("clear");
+			system("cls");
 		}
 	}
 	
