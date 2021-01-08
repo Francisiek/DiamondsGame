@@ -3,6 +3,7 @@
 #define _SCIN
 
 #include <iostream>
+#include <limits>
 
 template <class type>
 type& sinput(type& x)
