@@ -147,25 +147,25 @@ int main()
 			}
 			
 			//set var
-			char Key='0';
-			int points=0;
-			p_X=p_Y=0;
+			char Key = '0';
+			int points = 0;
+			p_X = p_Y = 0;
 			
 			system("clear");
 			while(!GameOver)	//game loop
 			{
 				system("clear");
 				
-				displ[p_Y][p_X]='@';
+				displ[p_Y][p_X] = '@';
 
 				//display
 				for(int i=0; i<m_Height; ++i)
 				{
 					for(int j=0; j<m_Width; ++j)
 					{
-						std::cout<<displ[i][j];
+						std::cout << displ[i][j];
 					}
-					std::cout<<'\n';
+					std::cout << '\n';
 				}
 				
 				//game logics
